@@ -1,2 +1,2 @@
 # PROJECTS
-A collection of my sample SQL files.
+A collection of my SQL files.
