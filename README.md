@@ -1,6 +1,6 @@
-#Project:
+#PROJECT:
 COVID 19 Cases and Deaths analysis
-(SQL File)
+(SQL)
 
 COVID-19 Data:
 This repository contains queries utilized for analyzing data in SSMS and presenting visualizations related to the COVID-19 pandemic.
