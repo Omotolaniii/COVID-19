@@ -9,7 +9,7 @@ WHERE continent is not null;
 
 
 --Total cases and deaths by location
-SELECT TOP 10 location, SUM(CAST(new_cases AS FLOAT)) AS Total_cases, SUM(CAST(new_deaths AS FLOAT)) AS Total_deaths
+SELECT location, SUM(CAST(new_cases AS FLOAT)) AS Total_cases, SUM(CAST(new_deaths AS FLOAT)) AS Total_deaths
 FROM NewCovidData
 WHERE continent is not null
 GROUP BY location
@@ -27,7 +27,7 @@ Max((cast(total_cases as float))/(cast(population as float)))*100 AS PercentageP
 FROM NewCovidData
 --where continent is not null
 GROUP BY location, population, date
-ORDER BY PercentagePopulationInfected desc;
+ORDER BY PercentagePopulationInfected DESC;
 
 
 
